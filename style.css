@@ -35,7 +35,7 @@
                                outline: none;
                                border: none;
                                border-radius: 1rem;
-                               background: aliceblue;
+                               background: #fff;
                                margin-bottom: 1rem;
                            }
                   
@@ -47,7 +47,7 @@
                                       padding: 5px 20px;
                                       color: #fff;
                                       outline: none;
-                                      background: #4c9ef5;
+                                      background: #f26805;
                                       font-size: 17px;
                                       border-radius: 15px;
                                       cursor: pointer;
@@ -139,17 +139,12 @@
                                       text-transform: capitalize;
                                   }
                   
-                                  .divider1,.divider2{
+                                  .divider1{
                                       background: #fff;
                                       height: 200px;
                                       border-radius: 5px;
                                   }
-                                  .divider2{
-                                      height: 5px;
-                                      width: 30%;
-                                      margin: 0 auto;
-                                      margin-bottom: 1rem;
-                                  }
+                               
                   
                                   .dayF p{
                                       padding: .8rem;
@@ -382,3 +377,4 @@
                           }
                                 
                 
+   
