@@ -1,3 +1,5 @@
+
+// Iqra Abdifitah
 const apikey = "89ec761584c6324cf302e7a7a9d588b6";
 window.addEventListener('load' , () => {
 if(navigator.geolocation){
@@ -16,6 +18,8 @@ if(navigator.geolocation){
     })
 }})
 
+
+// Xabiib Ali
 document.querySelector('#search-btn').addEventListener('click', ()=>{
     let boos = document.querySelector('#search-input').value
     console.log(boos);
@@ -33,7 +37,7 @@ document.querySelector('#search-btn').addEventListener('click', ()=>{
 })
 
 
-
+// Hani Nuur
 function weatherReport(data){
     const urlCst = `https://api.openweathermap.org/data/2.5/forecast?q=${data.name}&` + `appid=${apikey}`
     fetch(urlCst).then(res => {
@@ -53,6 +57,7 @@ function weatherReport(data){
     })
 }
 
+//  Faisa Mohamed
 function hourF(forecast){
     document.querySelector(".templist").textContent=" "
     for(let i=0 ;i<5; i++){
@@ -84,6 +89,7 @@ function hourF(forecast){
 
 }
 
+// Hodan Ahmed 
 
 function dayforcast(forecast){
 document.querySelector(".week-forecast").textContent= " "
